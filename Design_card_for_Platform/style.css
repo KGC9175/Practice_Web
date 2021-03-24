@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F6F7FB;
+}
+
+/* Reset CSS */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+article {
+    background-color: #fff;
+    box-shadow: 8px 8px 16px 4px rgba(133, 139, 146, 0.06);
+    border-radius: 20px;
+    border: 0.5px solid #EBEBF9;
+    padding: 5px 0;
+}
+
+/* Card1 */
+.card1-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card1-title-name {
+    margin: 0 16px 0 4px;
+    font-size: 11px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.card1-title-categories {
+    margin-bottom: 0;
+    display: flex;
+    font-size: 10px;
+    line-height: 1.7142857143;
+    border-left: 1px solid #E7E9F0;
+}
+
+.card1-title-category {
+    margin-left: 16px;
+}
+
+.card1-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1-profile-alarm {
+    margin-right: 16px;
+    height: 17px;
+}
+
+.card1-profile-div {
+    border-right: 1px solid #E7E9F0;
+}
+
+.card1-profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    margin-left: 16px;
+}
+
+.card1-profile-name {
+    margin: 0 16px 0;
+}
+
+.card1-profile-arrow {
+    transform: rotate(90deg);
+}
+
+/* Card2 */
+
+/* Help card */
+
+/* Project card */
+
+/* Card5 */
+
+/* Card3 */
+
+/* Card4 */
+
+/* Card8 */
+
+/* Card6 */
+
+/* Card7 */
+
+
+/* >= 768px (Desktop) */
+@media screen and (min-width: 768px) {
+    /* Reset CSS */
+    
+
+
+
+    /* Card2 */
+
+    /* Help card */
+
+    /* Project card */
+
+    /* Card5 */
+
+    /* Card3 */
+
+    /* Card4 */
+
+    /* Card8 */
+
+    /* Card6 */
+
+    /* Card7 */
+
+}
