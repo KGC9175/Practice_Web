@@ -5,6 +5,7 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
+    background-color: #fff;
 }
 
 /* Reset CSS */
@@ -30,55 +31,57 @@ strong {
 
 .fill-button {
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 194px;
     height: 61px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.48%;
+    line-height: 148%;
     border-radius: 60px;
     color: #57B3FE;
     background-color: #FFFFFF;
-    text-align: center;
+    margin-bottom: 16px;
 }
 
 /* Hero */
 .hero {
     background-image: url('./Assets/Hero_bg.svg');
     background-repeat: no-repeat;
-    text-align: center;
+    padding: 10px 0 46px;
 }
 
 .hero-links {
-    margin-bottom: 15px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 15px;
 }
 
 .hero-link a {
-    font-size: 10px;
+    font-size: 16px;
     line-height: 1;
     color: #fff;
     margin: 0 14px;
 }
 
 .hero-title {
-    margin-bottom: 20px;
-    font-size: 19px;
-    line-height: 1.2%;
+    margin-bottom: 8px;
+    font-size: 37px;
+    line-height: 1.2;
     color: #fff;
 }
 
 .hero-ment {
     margin-bottom: 24px;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 1.7;
     color: #fff;
     opacity: 0.8;
 }
 
 .hero-image {
+    margin-top: 15px;
     width: 100%;
     height: auto;
 }
@@ -87,17 +90,17 @@ strong {
 .features {
     background-image: url('./Assets/Features_bg.svg');
     background-repeat: no-repeat;
-    padding: 184px 0;
+    padding: 46px 0;
 }
 
 .features-top {
     margin-bottom: 8px;
-    height: auto;
+    height: 200px;
 }
 
 .features-top-banner {
     font-size: 12px;
-    line-height: 1.22%;
+    line-height: 1.22;
     letter-spacing: 0.15em;
     color: #00A077;
     font-weight: 700;
@@ -105,8 +108,8 @@ strong {
 
 .features-top-title {
     margin-bottom: 0;
-    font-size: 48px;
-    line-height: 1.22%;
+    font-size: 43px;
+    line-height: 1.22;
     color: #3B3E43;
 }
 
@@ -120,6 +123,7 @@ strong {
 }
 
 .features-list-icon {
+    margin-bottom: 20px;
     display: block;
     padding: 11px;
     width: 50px;
@@ -139,20 +143,22 @@ strong {
 .process {
     background-image: url('./Assets/Process_bg.svg');
     background-repeat: no-repeat;
-    padding: 184px 0;
+    padding: 46px 0;
 }
 
 .process-banner {
     font-size: 12px;
-    line-height: 1.22%;
+    line-height: 1.22;
+    letter-spacing: 0.15em;
     color: #fff;
     opacity: 0.5;
     font-weight: 700;
 }
 
 .process-title {
+    margin-bottom: 8px;
     font-size: 48px;
-    line-height: 1.22%;
+    line-height: 1.22;
     color: #fff;
 }
 
@@ -162,27 +168,16 @@ strong {
     color: #fff;
 }
 
-.process-images {
+.process-image {
     display: none;
 }
 
-.process .row:nth-child(2) {
+.process-list {
+    display: flex;
+    margin-bottom: 15px;
     width: 100%;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
-}
-
-.process .row:nth-child(3) {
-    margin: 40px 0;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
-}
-
-.process .row:last-child {
-    width: 100%;
+    height: 220px;
+    padding: 5px;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
@@ -200,17 +195,130 @@ strong {
     color: #595E64;
 }
 
-/* >= 768px (Desktop) */
+/* Brands */
+.brands {
+    background-color: #F2F2F2;
+    padding: 46px 0;
+}
+
+.brands-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands-title {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.22;
+    letter-spacing: 0.15em;
+    color: #00A077;
+    font-weight: 700;
+}
+
+.brands-desc {
+    font-size: 20px;
+    line-height: 1.22;
+    color: #3B3E43;
+    text-align: center;
+}
+
+.brands-logos {
+    margin-bottom: 15px;
+}
+
+.brands-bottom {
+    font-size: 16px;
+    line-height: 1.48;
+    color: #424A4D;
+}
+
+/* Start */
+.start {
+    background-image: url('./Assets/Start_bg.svg');
+    background-repeat: no-repeat;
+    padding: 46px 0;
+}
+
+.start-banner {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.22;
+    letter-spacing: 0.15em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.start-title {
+    margin-bottom: 8px;
+    font-size: 47px;
+    line-height: 1.22;
+    color: #fff;
+}
+
+.start-desc {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #fff;
+}
+
+.start-img {
+    width: 100%;
+}
+
+/* Footer */
+.footer {
+    background-color: #0D0D0D;
+    padding: 46px 0;
+}
+
+.footer .row:first-child {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-logo {
+    width: 176px;
+    height: 41px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.footer-link {
+    display: block;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 7 00;
+}
+
+.footer-company {
+    font-size: 15px;
+    line-height: 1.6666666667;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-etc {
+    font-size: 15px;
+    line-height: 1.3333333333;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* >= 1024px (Desktop) */
 @media screen and (min-width: 1024px) {
     /* Reset CSS */
 
     /* Hero */
     .hero-links {
-        margin: 32px 0 104px;
+        margin: 43px 0 127px 0;
+        flex-direction: row;
+        margin-bottom: 127px;
     }
 
     .hero-link a {
-        font-size: 14px;
         margin-right: 32px;
     }
 
@@ -220,13 +328,20 @@ strong {
 
     .hero-title {
         margin-bottom: 8px;
-        height: 44px;
         font-size: 61px;
+        text-align: center;
     }
 
     .hero-ment {
         margin-bottom: 41px;
         font-size: 20px;
+        text-align: center;
+    }
+
+    .hero .col-md-12:nth-child(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .fill-button {
@@ -236,11 +351,77 @@ strong {
     /* Features */
 
     /* Process */
-    .process-images {
-        display: inline;
-        width: 50%;
+    .process .row:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .process-banner {
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    
+    .process-title {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    
+    .process-desc {
+        margin-bottom: 32px;
+        width: 718px;
+        text-align: center;
+    }
+
+    .process-list {
+        height: 323px;
+    }
+
+    .process-image {
+        display: block;
+        width: 480px;
         height: 100%;
     }
+
+    .process-list-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Brands */
+    .brands {
+        padding: 184px 0;
+    }
+
+    .brands-title {
+        margin-bottom: 24px;
+    }
+
+    .brands-desc {
+        font-size: 48px;
+    }
+
+    .brands-logos {
+        padding: 0 48px;
+        margin-bottom: 16px;
+    }
+
+    .brands-logo {
+        padding: 0 10px;
+        margin-bottom: 24px;
+    }
+
+    .brands-bottom {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    /* Start */
+
+    /* Footer */
 
 
 }
