@@ -42,6 +42,12 @@ strong {
     color: #57B3FE;
     background-color: #FFFFFF;
     margin-bottom: 16px;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.fill-button:hover {
+  background-color: #1100ff;
+  color: #fff;
 }
 
 /* Hero */
@@ -270,7 +276,7 @@ strong {
 /* Footer */
 .footer {
     background-color: #0D0D0D;
-    padding: 46px 0;
+    padding: 46px 0 10px;
 }
 
 .footer .row:first-child {
@@ -280,6 +286,7 @@ strong {
 .footer-logo {
     width: 176px;
     height: 41px;
+    margin-bottom: 16px;
 }
 
 .footer-links {
@@ -292,13 +299,26 @@ strong {
     display: block;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
-    font-weight: 7 00;
+    font-weight: 700;
+}
+
+.footer-sns {
+    float: right;
+    margin: 0 0 16px 5px;
 }
 
 .footer-company {
+    margin-top: 16px;
+    float: left;
     font-size: 15px;
     line-height: 1.6666666667;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-etcs {
+    margin-top: 16px;
+    text-align: right;
+    float: right;
 }
 
 .footer-etc {
@@ -422,7 +442,39 @@ strong {
     /* Start */
 
     /* Footer */
+    .footer-logo {
+      height: 100%;
+      margin-bottom: 0;
+    }
+  
+    .footer-links {
+      margin-left: 50px;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .footer-link {
+      display: block;
+      margin: 0 5px;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 700;
+    }
+
+    .footer-sns {
+      display: block;
+      margin: 8px 0 5px 10px;
+    }
+
+    .footer-etcs {
+      display: flex;
+    }
+
+    .footer-etc {
+      margin-left: 10px;
+    }
+    
 
 
 }
-    
