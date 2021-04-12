@@ -1,7 +1,6 @@
 # Practice_Web
 
-![Practice_Web(Video)](https://user-images.githubusercontent.com/77602071/114356264-5dc77e00-9bab-11eb-9ee5-ff2b57b575c0.gif)
-
+![Practice_Web(Video)](https://user-images.githubusercontent.com/77602071/114356537-b26af900-9bab-11eb-8f0c-dcf6162d1295.gif)
 
 1. **목적**
     - 학습한 언어(HTML, CSS)를 활용하여 반응형 웹 페이지 제작해보기
