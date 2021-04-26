@@ -59,4 +59,4 @@
 
       마우스 커서를 가져가면 'background-color'와 'color'가 ':hover', 'transition'에 설정해놓은 상태로 변화
 
-    - 'netlify' 배포
+    - 'netlify' 배포(주소 : https://peter-project-1st.netlify.app)
